@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6B6BC47-0196-417A-9CCA-7E8D9A9F8B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A26A0620-EF94-438D-B1F2-000A48CCF442}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoggingProj", "src\LoggingProj\LoggingProj.xproj", "{5017A407-8993-450A-8A91-55585E85B02D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoggingProj.Log", "src\LoggingProj.Log\LoggingProj.Log.xproj", "{43631BE0-390B-4408-A710-A9B39694B96E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5017A407-8993-450A-8A91-55585E85B02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5017A407-8993-450A-8A91-55585E85B02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5017A407-8993-450A-8A91-55585E85B02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5017A407-8993-450A-8A91-55585E85B02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43631BE0-390B-4408-A710-A9B39694B96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43631BE0-390B-4408-A710-A9B39694B96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43631BE0-390B-4408-A710-A9B39694B96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43631BE0-390B-4408-A710-A9B39694B96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5017A407-8993-450A-8A91-55585E85B02D} = {A6B6BC47-0196-417A-9CCA-7E8D9A9F8B60}
+		{43631BE0-390B-4408-A710-A9B39694B96E} = {A6B6BC47-0196-417A-9CCA-7E8D9A9F8B60}
+	EndGlobalSection
+EndGlobal
